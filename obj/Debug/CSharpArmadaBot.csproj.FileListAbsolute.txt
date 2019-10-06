@@ -1,0 +1,18 @@
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\bin\Debug\CSharpArmadaBot.exe.config
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\bin\Debug\CSharpArmadaBot.exe
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\bin\Debug\CSharpArmadaBot.pdb
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.csprojResolveAssemblyReference.cache
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.MainForm.resources
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.Properties.Resources.resources
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.csproj.GenerateResource.Cache
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.exe
+C:\Users\Cin\AppData\Local\Temporary Projects\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.pdb
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\bin\Debug\CSharpArmadaBot.exe.config
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.exe
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.pdb
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\bin\Debug\CSharpArmadaBot.exe
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\bin\Debug\CSharpArmadaBot.pdb
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.csprojResolveAssemblyReference.cache
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.MainForm.resources
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.Properties.Resources.resources
+C:\Users\Cin\Documents\Visual Studio 2015\Projects\CSharpArmadaBot\CSharpArmadaBot\obj\Debug\CSharpArmadaBot.csproj.GenerateResource.Cache

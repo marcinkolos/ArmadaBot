@@ -1,0 +1,387 @@
+[1001/081030.398:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/081030.509:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/081040.089:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/081040.096:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/081048.054:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/081048.070:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/081053.327:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/081053.328:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/081107.636:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081121.643:INFO:CONSOLE(5)] "Uncaught SyntaxError: Invalid or unexpected token", source: about:blank (5)
+[1001/081122.570:WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: Trwa zamykanie potoku. (0xE8)
+[1001/081125.481:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081125.487:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081126.369:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081127.563:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081632.323:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/081632.371:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/081636.676:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/081636.691:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/081640.251:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/081640.269:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/081656.023:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081656.027:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081657.627:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081658.416:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081700.569:INFO:CONSOLE(5)] "Uncaught SyntaxError: Invalid or unexpected token", source: about:blank (5)
+[1001/081703.992:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081704.002:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081704.726:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/081706.297:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/202843.211:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/202843.290:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/202847.948:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/202848.006:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/202852.586:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/202852.591:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/202902.439:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/202909.159:WARNING:audio_sync_reader.cc(205)] AudioSyncReader::Read timed out, audio glitch count=10
+[1001/202909.359:WARNING:audio_sync_reader.cc(205)] AudioSyncReader::Read timed out, audio glitch count=20
+[1001/202909.559:WARNING:audio_sync_reader.cc(205)] AudioSyncReader::Read timed out, audio glitch count=30
+[1001/202914.898:INFO:CONSOLE(5)] "Uncaught SyntaxError: Invalid or unexpected token", source: about:blank (5)
+[1001/203049.051:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/203049.076:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/203049.142:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 5
+[1001/203053.346:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/203053.403:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/203059.445:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/203059.455:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/203121.078:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/203810.619:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/203810.619:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/203812.926:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/203812.942:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/203820.484:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/203820.497:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/203830.059:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/203830.066:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/203831.225:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/203832.497:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/204431.759:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/204431.768:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/204436.740:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/204436.772:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/204440.933:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/204440.968:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/204453.960:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/205109.507:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/205109.519:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/205114.363:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/205114.435:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/205119.251:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/205119.260:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/205130.211:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/214850.851:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/214850.853:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/214858.856:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/214858.900:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/214905.919:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/214905.921:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/214923.577:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/214923.580:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/214924.147:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read property 'length' of undefined", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/215000.941:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/215000.951:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/215001.507:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 11
+[1001/215007.349:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/215007.441:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/215011.243:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'GUI' of undefined", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/215013.910:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/215013.929:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/215020.797:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/215020.805:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/215021.709:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/215022.640:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/220304.227:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/220304.232:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/220343.237:INFO:CONSOLE(1)] "Possibly unhandled rejection: {"data":null,"status":-1,"config":{"method":"POST","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","url":"/api/members/login","data":{"username":"Ciniak","password":"Marcin11"},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json;charset=utf-8"}},"statusText":""}", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1001/220402.125:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/220402.214:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/220411.448:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/220411.580:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/220415.828:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/220415.833:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/220426.580:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/220503.333:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 1
+[1001/220503.789:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/220504.003:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/220507.848:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/220507.901:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/220511.877:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/220511.886:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/220517.519:WARNING:backend_impl.cc(1853)] Destroying invalid entry.
+[1001/220522.395:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1001/222739.455:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/222739.496:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/222742.331:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/222742.363:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/222746.465:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1001/222746.480:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1001/222759.290:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/211853.958:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 1
+[1002/211854.090:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/211854.090:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/211901.321:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/211901.454:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/211905.178:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/211905.229:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/211945.557:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/220140.261:INFO:CONSOLE(1)] "TypeError: Cannot read property 'length' of undefined
+    at http://www.armadabattle.com/play:2672:47
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:160936
+    at r (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:103531)
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:104970", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1002/220140.312:INFO:CONSOLE(1)] "TypeError: Cannot read property 'length' of undefined
+    at http://www.armadabattle.com/play:2672:47
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:160936
+    at r (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:103531)
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:104970", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1002/220156.881:INFO:CONSOLE(1)] "TypeError: Cannot read property 'length' of undefined
+    at http://www.armadabattle.com/play:2672:47
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:160936
+    at r (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:103531)
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:104970", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1002/220156.891:INFO:CONSOLE(1)] "TypeError: Cannot read property 'length' of undefined
+    at http://www.armadabattle.com/play:2672:47
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:160936
+    at r (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:103531)
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:104970", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1002/222612.773:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/222612.783:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/222617.197:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/222617.235:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/222621.025:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/222621.050:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/222725.745:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/224634.851:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/224634.851:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/224637.742:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/224637.792:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/224641.720:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/224641.745:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/224741.976:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/224741.978:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/224742.821:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/224743.936:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/224948.179:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 5
+[1002/224949.334:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/224949.357:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/224952.229:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/224952.240:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225111.075:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225111.275:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225111.322:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225111.335:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225111.350:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225121.409:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225121.577:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225121.606:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225121.607:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225121.637:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225131.297:INFO:CONSOLE(0)] "Uncaught (in promise) Timeout", source: http://armadabattle.com/ (0)
+[1002/225153.131:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225153.134:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225156.443:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225156.461:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225158.997:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 3
+[1002/225159.979:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 5
+[1002/225200.023:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 7
+[1002/225210.227:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/225210.709:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read property 'length' of undefined", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/225321.924:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225328.159:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225331.388:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225335.137:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225338.310:INFO:CONSOLE(0)] "Uncaught (in promise) Timeout", source: http://armadabattle.com/ (0)
+[1002/225338.527:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225343.868:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225343.868:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225348.670:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225359.024:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1002/225409.493:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 17
+[1002/225414.659:INFO:CONSOLE(1)] "Possibly unhandled rejection: {"data":null,"status":-1,"config":{"method":"POST","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","url":"/api/members/login","data":{"username":"Ciniak","password":"Marcin11"},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json;charset=utf-8"}},"statusText":""}", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1002/225420.455:ERROR:ssl_client_socket_impl.cc(962)] handshake failed; returned -1, SSL error code 1, net_error -101
+[1002/225759.592:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225759.592:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225800.790:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225801.085:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225805.403:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225805.409:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225808.821:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/225808.824:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/225809.128:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Cannot read property 'length' of undefined", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/225830.844:INFO:CONSOLE(1)] "TypeError: Cannot read property 'setMilliseconds' of undefined
+    at Function.isTimeSpeedHacked (https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js:1:1415295)
+    at d.$scope.changeMap (http://www.armadabattle.com/play:2235:37)
+    at fn (eval at compile (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:200721), <anonymous>:4:147)
+    at s (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:223559)
+    at d.$eval (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:154173)
+    at d.$apply (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:154406)
+    at HTMLImageElement.<anonymous> (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:223611)
+    at HTMLImageElement.dispatch (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:48320)
+    at HTMLImageElement.m.handle (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:46331)", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1002/225953.036:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225953.052:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/225957.150:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/225957.165:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/230001.079:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/230001.092:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/230009.009:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/230009.010:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/230010.020:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/230011.118:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/230551.120:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/230551.238:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/230554.652:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/230554.697:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/230559.617:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/230559.624:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/231423.533:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/231714.984:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/231714.985:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/231716.104:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/231716.149:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/231719.997:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/231720.005:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/231823.824:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/232012.055:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 1
+[1002/232012.143:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/232012.146:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/232016.096:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/232016.101:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/232019.895:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/232019.905:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/232041.397:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/232041.413:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/232041.809:INFO:CONSOLE(1)] "Possibly unhandled rejection: {"data":{"unauthorized":true},"status":401,"config":{"method":"POST","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"x-auth":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfbWVtYmVyIjoiNWNkYzRmNzFmYjBhYmExMTM1ZGEyMGZjIiwiYWNjZXNzIjoiYXV0aCIsImlhdCI6MTU3MDA1MDY1Mn0.yul_7dO_zLM6CLSSkEnpbuvh3xD9lTKF50p_qmjKNu0","Accept":"application/json, text/plain, */*","Content-Type":"application/json;charset=utf-8"},"url":"http://www.armadabattle.com/api/members/check/daily_reward","data":{}},"statusText":"Unauthorized"}", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1002/232103.188:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/232325.343:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/232325.378:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/232329.807:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/232329.828:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/232333.859:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/232333.864:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/232337.104:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/232337.123:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/232337.762:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/232338.788:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/234501.115:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/234501.167:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/234505.144:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/234505.195:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/234509.084:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/234509.094:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/234541.893:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1002/234819.334:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/234819.360:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/234822.765:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/234822.816:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/234826.951:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/234826.964:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/235425.758:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/235425.759:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/235425.855:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 5
+[1002/235427.892:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/235427.923:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/235431.955:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1002/235431.962:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1002/235517.852:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1003/001314.017:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1003/001314.043:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1003/001318.210:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1003/001318.244:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1003/001321.859:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1003/001321.863:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1003/001338.720:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1003/071505.526:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1003/071505.527:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1003/071505.546:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 1
+[1003/071510.473:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1003/071510.725:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1003/071514.616:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1003/071514.630:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1003/071522.172:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1003/071522.373:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1003/071523.254:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1003/071524.453:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-e9265814e7.js (1)
+[1005/201605.537:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/201605.564:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/202443.090:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/202443.149:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/202448.255:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/202448.310:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/202453.397:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/202453.440:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/202502.197:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 3
+[1005/202503.289:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'options' of undefined", source: about:blank (1)
+[1005/202505.835:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202506.464:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202508.245:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202508.854:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202921.117:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/202921.117:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/202924.678:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/202924.744:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/202929.359:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/202929.378:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/202934.517:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202934.522:INFO:CONSOLE(1)] "%c %c %c Armada Framework v1.0 %c %c %c http://www.ssbstudios.com %c★%c★%c★%c★%c★", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202936.000:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202937.264:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/202957.731:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/203000.593:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/203005.554:INFO:CONSOLE(1)] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu", source: https://arm1.mncdn.com/build/js/all-play-min-d4176bb94e.js (1)
+[1005/204449.810:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/204449.821:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/204455.553:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/204455.727:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/204500.425:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/204500.441:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/205528.675:INFO:CONSOLE(1)] "TypeError: Cannot read property 'length' of undefined
+    at http://www.armadabattle.com/play:2687:47
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:160936
+    at r (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:103531)
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:104970", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1005/205528.677:INFO:CONSOLE(1)] "TypeError: Cannot read property 'length' of undefined
+    at http://www.armadabattle.com/play:2687:47
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:160936
+    at r (https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:103531)
+    at https://arm1.mncdn.com/build/js/all-man-min-115d997307.js:1:104970", source: https://arm1.mncdn.com/build/js/all-man-min-115d997307.js (1)
+[1005/205615.972:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/205615.992:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/205619.966:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/205619.969:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/205624.357:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/205624.384:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/205943.962:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/205943.988:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/205946.534:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/205946.602:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/205950.766:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/205950.778:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/210934.651:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/210934.660:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/211010.424:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/211010.435:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/211017.511:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 1
+[1005/211027.342:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/211027.357:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/222314.342:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222319.377:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222324.380:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222329.383:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222334.385:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222339.388:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222344.391:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222349.394:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222354.397:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222359.400:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222404.403:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222408.460:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222409.407:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[1005/222508.523:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/222508.531:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/222513.245:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/222513.474:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[1005/222517.162:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[1005/222517.182:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
