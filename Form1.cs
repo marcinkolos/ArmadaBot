@@ -89,6 +89,11 @@ namespace CSharpArmadaBot
         
         public void FreezeAndCheckLicense(string id)
         {
+            if(InvokeRequired)
+            {
+                this.Invoke(new Action(() => Crypto.License.CheckLicense(id)));
+                return;
+            }
             Crypto.License.CheckLicense(id);
         }
 

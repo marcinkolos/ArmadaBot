@@ -42,19 +42,15 @@ namespace CSharpArmadaBot.CEF
                 if (SM_Adr == "http://www.armadabattle.com/play")
                 {
                     JavascriptResponse response;
-                    Task<JavascriptResponse> task = SeaMapBrowser.EvaluateScriptAsync("(function(){return myID;})();").ContinueWith( t => 
-                        delegate {
+                    Task<JavascriptResponse> task = SeaMapBrowser.EvaluateScriptAsync("(function(){return myID;})();");
+                    task.GetAwaiter().OnCompleted(delegate ()
+                    {
                         response = task.Result;
+                        string id = "";
+                        id = (response.Success && (string)response.Result != "null" ? (string)response.Result : "0");
+                        MainForm.mainForm.FreezeAndCheckLicense(id);
                     });
-                    //JavascriptResponse response = task.Result;
-                    if (response.Success && (string)response.Result != "null")
-                    {
-                        var id = (string)response.Result;
-                    }
-                    else
-                    {
-                        var id = "0";
-                    }
+                    
                 }
                 else if (SM_Adr == "http://www.armadabattle.com/homepage")
                 {
