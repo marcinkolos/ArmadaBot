@@ -15,8 +15,8 @@ namespace CSharpArmadaBot.Bot
     {
         public string Id { get; set; }
         public string Nickname { get; set; }
-        public int X { get; set; }
-        public int Y { get; set; }
+        public float X { get; set; }
+        public float Y { get; set; }
         public int Hp { get; set; }
         public int MaxHp { get; set; }
         public string Armada = "";
@@ -34,10 +34,12 @@ namespace CSharpArmadaBot.Bot
 
     public class Player
     {
-        public int X { get; set; }
-        public int Y { get; set; }
+        public float X { get; set; }
+        public float Y { get; set; }
         public int Hp { get; set; }
         public int MaxHp { get; set; }
-
+        public bool Shooting { get; set; }
+        public bool Repairing { get; set; }
+        public bool Moving { get; set; }
     }
 }

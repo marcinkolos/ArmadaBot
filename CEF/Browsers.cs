@@ -46,9 +46,14 @@ namespace CSharpArmadaBot.CEF
                     task.GetAwaiter().OnCompleted(delegate ()
                     {
                         response = task.Result;
-                        string id = "";
-                        id = (response.Success && (string)response.Result != "null" ? (string)response.Result : "0");
+                        string id = (response.Success && (string)response.Result != "null" ? (string)response.Result : "0");
+                        //MainForm.mainForm.Log(id);
                         MainForm.mainForm.FreezeAndCheckLicense(id);
+                        Task<bool> t = BotMethods.InitMainFunctions();
+                        t.GetAwaiter().OnCompleted(delegate ()
+                        {
+                            MainForm.mainForm.Log(t.Result.ToString());
+                        });
                     });
                     
                 }

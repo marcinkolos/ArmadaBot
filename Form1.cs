@@ -67,8 +67,14 @@ namespace CSharpArmadaBot
             BotSession.isLoggedin = false;
             BotSession.Login = LoginComboBox.Text;
             BotSession.Password = PasswordTextBox.Text;
-            BotSession.GlitterPriority = (CollectChestsCheckBox.Checked ? Int32.Parse(CollectChestsPriorityTextBox.Text) : 0);
-            BotSession.EventGlitterPriority = (CollectEventChestsCheckBox.Checked ? Int32.Parse(CollectEventChestsPriorityTextBox.Text) : 0);
+            if(CollectChestsCheckBox.Checked)
+            {
+                if (!Int32.TryParse(CollectChestsPriorityTextBox.Text, out BotSession.GlitterPriority)) BotSession.GlitterPriority = 0;
+            }
+            if (CollectChestsCheckBox.Checked)
+            {
+                if (!Int32.TryParse(CollectEventChestsPriorityTextBox.Text, out BotSession.EventGlitterPriority)) BotSession.EventGlitterPriority = 0;
+            }
             BotSession.npcs = new List<KeyValuePair<string, int>>();
             for (int i = 0; i < NpcsDataGridView.Rows.Count; i++)
             {
@@ -114,13 +120,13 @@ namespace CSharpArmadaBot
             //BotTasks.Start();
             //BotMethods bm = new BotMethods();
             //BotSession.entities = await 
-            BotMethods.GetEntities();
+            BotMethods.GetAllEntities();
             
         }
 
         private void StopButton_Click(object sender, EventArgs e)
         {
-            CreateNewSession();
+            BotMethods.GetMyPlayer();
         }
 
         private void NotifyIcon_Click(object sender, EventArgs e)
