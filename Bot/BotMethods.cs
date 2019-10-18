@@ -62,7 +62,8 @@ namespace CSharpArmadaBot.Bot
 
         public async static Task<bool> InitMainFunctions()
         {
-            string script = @"function ifLast(a, b){ if(a - b > 1) return ','; else return '';} function isPlayerMoving(){ if(typeof(ArmadaBattle.Game.myPlayer.currentMove)=='undefined') return !1; return (ArmadaBattle.Game.myPlayer.currentMove===null ? !0 : (ArmadaBattle.Game.myPlayer.currentMove.currentPathGoIndex != ArmadaBattle.Game.myPlayer.currentMove.goPositionPath.x.length));} ";
+            string script = @"function ifLast(a, b){ if(a - b > 1) return ','; else return '';} function isPlayerMoving(){ if(typeof(ArmadaBattle.Game.myPlayer.currentMove)=='undefined') return !1; return (ArmadaBattle.Game.myPlayer.currentMove===null ? !0 : (ArmadaBattle.Game.myPlayer.currentMove.currentPathGoIndex != ArmadaBattle.Game.myPlayer.currentMove.goPositionPath.x.length));} 
+            (function() { var button = $('#duplicateTabs > .modal-dialog > .modal-content > .modal-footer > button'); if($('#duplicateTabs').css('display')=='block') button.click(); })();";
             JavascriptResponse javascriptResponse = await MainForm.mainForm.br.SeaMapBrowser.EvaluateScriptAsync(script);
             return javascriptResponse.Success;
         }
@@ -126,8 +127,9 @@ namespace CSharpArmadaBot.Bot
                         {
                             entity.priority = odpowiednialista.Find(key => key.Key == entity.Nickname).Value;
                         }
-                        MainForm.mainForm.Log(String.Format("ID {0}, Nickname {1}, HP {2}/{3}, X {4} | Y {5}, {6}", entity.Id, entity.Nickname, entity.Hp, entity.MaxHp, entity.X, entity.Y, entity.priority));
+                        //MainForm.mainForm.Log(String.Format("ID {0}, Nickname {1}, HP {2}/{3}, X {4} | Y {5}, {6}", entity.Id, entity.Nickname, entity.Hp, entity.MaxHp, entity.X, entity.Y, entity.priority));
                     }
+                    return list;
                 }
                 catch (Exception ex)
                 {
@@ -141,7 +143,7 @@ namespace CSharpArmadaBot.Bot
         {
             string command = @"(function(){ 
                         g = ArmadaBattle.Game.myPlayer;
-                        var out =`{ 'Hp': '${g.options.HP}', 'MaxHp': '${g.options.maxHP}', 'X': '${g.GUI.group.x}', 'Y': '${g.GUI.group.y}', 'Shooting': '${g.currentShoot!=null}', 'Repairing': '${g.currentRepair!=null}', 'Moving': '${isPlayerMoving()}' }`;
+                        var out =`{ 'Hp': '${g.options.HP}', 'MaxHp': '${g.options.maxHP}', 'X': '${g.GUI.group.x}', 'Y': '${g.GUI.group.y}', 'Shooting': '${(g.currentShoot!=null ? g.currentShoot.shooted.id : null)}', 'Repairing': '${g.currentRepair!=null}', 'Moving': '${isPlayerMoving()}' }`;
                         return out; })();";
             JavascriptResponse jsr = await MainForm.mainForm.br.SeaMapBrowser.EvaluateScriptAsync(command);
             string jsonString = jsr.Result.ToString();
@@ -150,7 +152,7 @@ namespace CSharpArmadaBot.Bot
                 try
                 {
                     Player player = JsonConvert.DeserializeObject<Player>(jsonString);
-                    MainForm.mainForm.Log(String.Format("HP {0}/{1}, X {2} | Y {3}, Moving {4}, Repairing {5}, Shooting {6}", player.Hp, player.MaxHp, player.X, player.Y, player.Moving, player.Repairing, player.Shooting));
+                    //MainForm.mainForm.Log(String.Format("HP {0}/{1}, X {2} | Y {3}, Moving {4}, Repairing {5}, Shooting {6}", player.Hp, player.MaxHp, player.X, player.Y, player.Moving, player.Repairing, player.Shooting));
                 }
                 catch (Exception ex)
                 {
@@ -176,7 +178,7 @@ namespace CSharpArmadaBot.Bot
         {
             int lowestPriority = BotSession.entities.Where(entity => entity.priority > 0).Min(entity => entity.priority);
             List<Entity> entitiesToChoose = BotSession.entities.FindAll(entity => entity.priority == lowestPriority);
-            Comparer comparer = new Comparer();
+            //Comparer comparer = new Comparer();
             var lowestDistance = 999999;
             var lowestIndex = 999999;
             for(var i = 0; i < entitiesToChoose.Count; i++)
@@ -190,7 +192,7 @@ namespace CSharpArmadaBot.Bot
             }
             return entitiesToChoose[lowestIndex];
         }
-
+        /*
         class Comparer : IComparer<Entity>
         {
             public int Compare(Entity a, Entity b)
@@ -199,6 +201,6 @@ namespace CSharpArmadaBot.Bot
                 var y = Distance(BotSession.myPlayer.X, BotSession.myPlayer.Y, b.X, b.Y);
                 return x.CompareTo(y);
             }
-        }
+        }*/
     }
 }

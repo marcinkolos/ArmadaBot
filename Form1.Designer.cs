@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -70,6 +70,10 @@
             this.Column2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.CollectEventChestsPriorityTextBox = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.CollectChestsPriorityTextBox = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.AvoidIslandsCheckBox = new System.Windows.Forms.CheckBox();
             this.ShootAnimalsCheckBox = new System.Windows.Forms.CheckBox();
             this.ShootNpcsCheckBox = new System.Windows.Forms.CheckBox();
@@ -94,10 +98,7 @@
             this.StopButton = new System.Windows.Forms.Button();
             this.NotifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.CollectChestsPriorityTextBox = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.CollectEventChestsPriorityTextBox = new System.Windows.Forms.TextBox();
+            this.seaMapPanel = new System.Windows.Forms.Panel();
             this.tabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -125,6 +126,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1239, 539);
             this.tabControl1.TabIndex = 0;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -439,8 +441,8 @@
             // 
             // Column6
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column6.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column6.DefaultCellStyle = dataGridViewCellStyle23;
             this.Column6.HeaderText = "Priority";
             this.Column6.MaxInputLength = 3;
             this.Column6.Name = "Column6";
@@ -489,8 +491,8 @@
             // 
             // Column3
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column3.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle24;
             this.Column3.HeaderText = "Priority";
             this.Column3.MaxInputLength = 3;
             this.Column3.Name = "Column3";
@@ -513,6 +515,40 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tasks";
+            // 
+            // CollectEventChestsPriorityTextBox
+            // 
+            this.CollectEventChestsPriorityTextBox.Location = new System.Drawing.Point(50, 82);
+            this.CollectEventChestsPriorityTextBox.Name = "CollectEventChestsPriorityTextBox";
+            this.CollectEventChestsPriorityTextBox.Size = new System.Drawing.Size(26, 20);
+            this.CollectEventChestsPriorityTextBox.TabIndex = 11;
+            this.CollectEventChestsPriorityTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyDigits);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(6, 85);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(38, 13);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "Priority";
+            // 
+            // CollectChestsPriorityTextBox
+            // 
+            this.CollectChestsPriorityTextBox.Location = new System.Drawing.Point(50, 39);
+            this.CollectChestsPriorityTextBox.Name = "CollectChestsPriorityTextBox";
+            this.CollectChestsPriorityTextBox.Size = new System.Drawing.Size(26, 20);
+            this.CollectChestsPriorityTextBox.TabIndex = 9;
+            this.CollectChestsPriorityTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyDigits);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 42);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(38, 13);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "Priority";
             // 
             // AvoidIslandsCheckBox
             // 
@@ -729,45 +765,24 @@
             this.panel1.Size = new System.Drawing.Size(312, 21);
             this.panel1.TabIndex = 4;
             // 
-            // label11
+            // seaMapPanel
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 42);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(38, 13);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "Priority";
-            // 
-            // CollectChestsPriorityTextBox
-            // 
-            this.CollectChestsPriorityTextBox.Location = new System.Drawing.Point(50, 39);
-            this.CollectChestsPriorityTextBox.Name = "CollectChestsPriorityTextBox";
-            this.CollectChestsPriorityTextBox.Size = new System.Drawing.Size(26, 20);
-            this.CollectChestsPriorityTextBox.TabIndex = 9;
-            this.CollectChestsPriorityTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyDigits);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(6, 85);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(38, 13);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "Priority";
-            // 
-            // CollectEventChestsPriorityTextBox
-            // 
-            this.CollectEventChestsPriorityTextBox.Location = new System.Drawing.Point(50, 82);
-            this.CollectEventChestsPriorityTextBox.Name = "CollectEventChestsPriorityTextBox";
-            this.CollectEventChestsPriorityTextBox.Size = new System.Drawing.Size(26, 20);
-            this.CollectEventChestsPriorityTextBox.TabIndex = 11;
-            this.CollectEventChestsPriorityTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyDigits);
+            this.seaMapPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.seaMapPanel.Location = new System.Drawing.Point(14, 35);
+            this.seaMapPanel.Name = "seaMapPanel";
+            this.seaMapPanel.Padding = new System.Windows.Forms.Padding(6, 3, 6, 3);
+            this.seaMapPanel.Size = new System.Drawing.Size(1235, 512);
+            this.seaMapPanel.TabIndex = 5;
+            this.seaMapPanel.Visible = false;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 682);
+            this.Controls.Add(this.seaMapPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.LogBox);
             this.Controls.Add(this.tabControl1);
@@ -866,6 +881,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox CollectChestsPriorityTextBox;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel seaMapPanel;
     }
 }
 

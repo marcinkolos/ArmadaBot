@@ -38,7 +38,7 @@ namespace CSharpArmadaBot.Bot
         public float Y { get; set; }
         public int Hp { get; set; }
         public int MaxHp { get; set; }
-        public bool Shooting { get; set; }
+        public string Shooting { get; set; }
         public bool Repairing { get; set; }
         public bool Moving { get; set; }
     }

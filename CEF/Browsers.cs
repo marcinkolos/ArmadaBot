@@ -47,12 +47,12 @@ namespace CSharpArmadaBot.CEF
                     {
                         response = task.Result;
                         string id = (response.Success && (string)response.Result != "null" ? (string)response.Result : "0");
-                        //MainForm.mainForm.Log(id);
                         MainForm.mainForm.FreezeAndCheckLicense(id);
                         Task<bool> t = BotMethods.InitMainFunctions();
                         t.GetAwaiter().OnCompleted(delegate ()
                         {
-                            MainForm.mainForm.Log(t.Result.ToString());
+                            MainForm.mainForm.Log(t.Result ? "Succesfully loaded functions" : "Error while loading functions");
+                            BotSession.isLoggedin = true;
                         });
                     });
                     
@@ -98,7 +98,7 @@ namespace CSharpArmadaBot.CEF
 
         public static void InitCEF(AbstractCefSettings settings, IBrowserProcessHandler browserProcessHandler)
         {
-            settings.CachePath = "cache";
+            //settings.CachePath = "cache";
             settings.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36";
             settings.CefCommandLineArgs.Add("no-proxy-server", "1");
             settings.CefCommandLineArgs.Add("disable-extensions", "1");

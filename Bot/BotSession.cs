@@ -19,29 +19,11 @@ namespace CSharpArmadaBot.Bot
         public static int EventGlitterPriority;
 
         public static List<Entity> entities;
-        public static Entity myPlayer;
+        public static Player myPlayer;
 
         public BotSession()
         {
 
         }
     }
-    /*
-    class Comparer : IComparer<KeyValuePair<string, int>>
-    {
-        public int Compare(int x, int y)
-        {
-            if (x == 0 || y == 0)
-            {
-                return 0;
-            }
-            
-            return x.CompareTo(y);
-        }
-
-        public int Compare(KeyValuePair<string, int> x, KeyValuePair<string, int> y)
-        {
-            return x.Value.CompareTo(y.Value);
-        }
-    }*/
 }

@@ -4,34 +4,73 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CefSharp;
+using System.Threading;
 
 namespace CSharpArmadaBot.Bot
 {
     public static class BotTasks
     {
-        
+        static CancellationTokenSource mainTokenSource;// = new CancellationTokenSource();
+        static CancellationToken mainToken;// = mainTokenSource.Token;
+        static Task entityUpdater;
 
-        public static bool Start()
+        public async static void Start()
         {
-            return false;
-            //if ((string)GetResultFromJS(@"ArmadaBot.start();") == "true") return true; else return false;
+            if(!BotSession.isLoggedin)
+            {
+                MainForm.mainForm.Log("Log in first");
+                return;
+            }
+            //var mainTask = Task.Run(() => MainTask(), mainToken);
+            if(entityUpdater!=null)
+            {
+                if (entityUpdater.Status == TaskStatus.WaitingForActivation)
+                {
+                    MainForm.mainForm.Log("Już odpalony");
+                    return;
+                }
+            }
+            mainTokenSource = new CancellationTokenSource();
+            mainToken = mainTokenSource.Token;
+            entityUpdater = Task.Run(() => EntityUpdater(), mainToken);
+            //mainTask();
+            //entityUpdater.Start();
         }
 
-        public static async Task<bool> MainTask()
+        public static void Stop()
+        {
+            if(mainTokenSource!=null) mainTokenSource.Cancel();
+        }
+
+        public static async void MainTask()
         {
             MainForm.mainForm.Log("Starting...");
-            var a = await MainForm.mainForm.br.SeaMapBrowser.EvaluateScriptAsync("");
-            var b = BotMethods.Distance(1,2,3,4);
-            return true;
+            while (!mainToken.IsCancellationRequested)
+            {
+
+            }
+            mainToken.ThrowIfCancellationRequested();
         }
 
-        public static async void EntityUpdater()
+        public static async Task EntityUpdater()
         {
-            while (true)
+            try
             {
-                BotSession.entities = await BotMethods.GetAllEntities();
-                await Task.Delay(1000);
+                while (!mainToken.IsCancellationRequested)
+                {
+                    BotSession.entities = await BotMethods.GetAllEntities();
+                    BotSession.myPlayer = await BotMethods.GetMyPlayer();
+                    await Task.Delay(250);
+                    if (mainToken.IsCancellationRequested) break;
+                    await Task.Delay(250);
+                }
+                mainToken.ThrowIfCancellationRequested();
             }
+            catch(Exception ex)
+            {
+                MainForm.mainForm.Log(ex.Message);
+            }
+            
         }
     }
 }

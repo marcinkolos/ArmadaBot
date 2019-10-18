@@ -18,7 +18,6 @@ namespace CSharpArmadaBot
     {
         public static MainForm mainForm;
         public Browsers br;
-        //public BotSession botSession;
 
         public MainForm()
         {
@@ -62,8 +61,6 @@ namespace CSharpArmadaBot
 
         public void CreateNewSession()
         {
-            //ToDo
-            //botSession = new BotSession();
             BotSession.isLoggedin = false;
             BotSession.Login = LoginComboBox.Text;
             BotSession.Password = PasswordTextBox.Text;
@@ -117,16 +114,12 @@ namespace CSharpArmadaBot
 
         private void StartButton_Click(object sender, EventArgs e)
         {
-            //BotTasks.Start();
-            //BotMethods bm = new BotMethods();
-            //BotSession.entities = await 
-            BotMethods.GetAllEntities();
-            
+            BotTasks.Start();
         }
 
         private void StopButton_Click(object sender, EventArgs e)
         {
-            BotMethods.GetMyPlayer();
+            BotTasks.Stop();
         }
 
         private void NotifyIcon_Click(object sender, EventArgs e)
@@ -139,7 +132,9 @@ namespace CSharpArmadaBot
         private void LoadBrowsers()
         {
             br = new Browsers();
-            this.tabControl1.TabPages[0].Controls.Add(br.SeaMapBrowser);
+            this.seaMapPanel.Controls.Add(br.SeaMapBrowser);
+            seaMapPanel.Visible = true;
+            seaMapPanel.Visible = false;
             this.tabControl1.TabPages[1].Controls.Add(br.MainSiteBrowser);
             br.SeaMapBrowser.Dock = DockStyle.Fill;
             br.MainSiteBrowser.Dock = DockStyle.Fill;
@@ -224,16 +219,17 @@ namespace CSharpArmadaBot
             settings.Npcs = new List<string[]>();
             for (int i = 0; i < NpcsDataGridView.Rows.Count; i++)
             {
-                settings.Npcs.Add( new string[] { (string)NpcsDataGridView.Rows[i].Cells[0].Value, NpcsDataGridView.Rows[i].Cells[1].Value.ToString(), (string)NpcsDataGridView.Rows[i].Cells[2].Value.ToString() });
+                settings.Npcs.Add( new string[] { (string)NpcsDataGridView.Rows[i].Cells[0].Value, NpcsDataGridView.Rows[i].Cells[1].Value.ToString(), NpcsDataGridView.Rows[i].Cells[2].Value.ToString() });
             }
             settings.Animals = new List<string[]>();
             for (int i = 0; i < AnimalsDataGridView.Rows.Count; i++)
             {
-                settings.Animals.Add(new string[] { (string)AnimalsDataGridView.Rows[i].Cells[0].Value, AnimalsDataGridView.Rows[i].Cells[1].Value.ToString(), (string)AnimalsDataGridView.Rows[i].Cells[2].Value.ToString() });
+                settings.Animals.Add(new string[] { (string)AnimalsDataGridView.Rows[i].Cells[0].Value, AnimalsDataGridView.Rows[i].Cells[1].Value.ToString(), AnimalsDataGridView.Rows[i].Cells[2].Value.ToString() });
             }
             settings.LastLogin = LoginComboBox.Text;
             settings.Password = PasswordTextBox.Text;
             settings.CollectChests = CollectChestsCheckBox.Checked;
+
             settings.CollectEventChests = CollectEventChestsCheckBox.Checked;
             settings.ShootNpcs = ShootNpcsCheckBox.Checked;
             settings.ShootAnimals = ShootAnimalsCheckBox.Checked;
@@ -318,6 +314,11 @@ namespace CSharpArmadaBot
             {
                 e.Handled = true;
             }
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            seaMapPanel.Visible = (tabControl1.SelectedIndex == 0);
         }
     }
 }

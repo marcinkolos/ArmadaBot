@@ -96,6 +96,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArmadaBattle\Map.cs" />
     <Compile Include="Bot\BotMethods.cs" />
     <Compile Include="Bot\BotSession.cs" />
     <Compile Include="Bot\BotSettings.cs" />
