@@ -1,4 +1,4 @@
-# CSharpArmadaBot
+# ArmadaBot
  
 <b>Old, discontinued</b> project of automatic playing browser game called Armada Battle. Based on Chromium Embedded Framework.
 
